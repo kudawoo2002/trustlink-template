@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(/css/fonts/Roboto-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(/css/fonts/Roboto-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
