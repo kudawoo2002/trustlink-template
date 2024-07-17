@@ -55,6 +55,11 @@ h2 {
 /* Navbar */
 header {
   background-color: #023e8a;
+  position: fixed;
+  top: 0;
+  right: inherit;
+  width: 100%;
+  z-index: 99;
 }
 
 .logo {
@@ -107,6 +112,7 @@ header {
     border-radius: 4rem;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     opacity: 0;
+    transition: all 0.3 ease;
   }
   #menu li a {
     color: #023e8a;
@@ -125,3 +131,41 @@ header {
   }
 }
 /* End of Navbar */
+
+/* Hero Section */
+.hero {
+  background-color: #023e8a;
+  height: 100vh;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-left {
+  width: 45%;
+  color: #fff;
+}
+
+.hero-right {
+  width: 50%;
+  height: auto;
+}
+
+.hero-header {
+  font-size: 8rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hero-right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-left .hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End Hero */
