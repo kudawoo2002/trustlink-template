@@ -88,6 +88,9 @@ header {
   display: none;
 }
 @media (max-width: 699px) {
+  .obj-width {
+    max-width: 35rem;
+  }
   #bar {
     display: block;
     font-size: 3rem;
